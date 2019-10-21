@@ -1,0 +1,106 @@
+
+ *{
+margin: 0;
+padding: 0;
+}
+ body {
+ font: 13pt Arial, Helvetica, sans-serif; /* Шрифт теста */
+ background: #98FB98; /* Цвет фона */
+ }
+ h2 {
+ font-size: 24px; /* Размер шрифта в заголовке */
+ color: #080808; /* Цвет заголовка */
+ margin-top: 0; /* Отступ сверху */
+ margin-bottom: 10px;
+ }
+ h3 {
+ font-size: 24px; /* Размер шрифта в заголовке */
+ color: #080808; /* Цвет заголовка */
+ margin-top: 0; /* Отступ сверху */
+ margin-bottom: 10px;
+ }
+ p{
+ 	text-indent: 25px;
+
+text-align: justify
+ 	margin: 8px;
+ }
+ 
+
+/* Большие экраны */
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  /* Выставляет элементы к концу строки по главной оси */
+  justify-content: flex-end;
+}
+/* Средние экраны */
+@media all and (max-width: 800px) {
+  .navigation {
+    /* На экранах средних размеров мы их равномерно центрируем, распределяя между ними пустое место */
+    justify-content: space-around;
+  }
+}
+/* Маленькие экраны */
+@media all and (max-width: 500px) {
+  .navigation {
+    /* На малых экранах мы выставляем элементы в колонку */
+    flex-direction: column;
+  }
+}
+ .totalContainers{
+ 	display: flex;
+ 	flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch  ;
+    flex-wrap: wrap;
+    align-content: space-around;
+     margin: auto;
+ }
+ .imgConteiner{
+
+  width: 100%;
+}
+img {
+  width: 100%;
+}
+ 
+ 
+ .container {
+
+ width: 70%; /* Ширина слоя */
+ margin: 0 auto; /* Выравнивнить весь блок по центру */
+ background: #f0f0f0; /* Цвет фона левой колонки */
+ }
+ .header {
+ font-size: 38px; /* Размер текста в шапке */
+ text-align: center; /* Выравнивание текст шапки по центру */
+ padding: 15px; /* Отступы внутри блока шапки */
+ background: #000000; /* Цвет фона шапки */
+ color: #00FF00; /* Цвет текста */
+ }
+ .sidebar {
+ margin-top: 180px;
+ font-size: 25px;
+ width: 14%; /* Ширина блока */
+ padding: 2 5%; /* Отступы внутри левого блока */
+ float: right; /* Обтекание блока по левому краю */
+ }
+ .content {
+ font-family: "Times New Roman", Georgia, Serif;
+ font-family: sans-serif;
+ font-family: cursive;
+ font-family: system-ui;
+ font-family: initial;
+ margin-right: 8%; /* Отступ справа */
+ padding: 20px; /* Отступы внутри правого блока */
+ background: #fff; /* Цвет фона правого блока */
+ }
+ .footer {
+ background: #000000; /* Цвет фона нижнего блока-подвала */
+ color:#00FF00; /* Цвет текста подвала */
+ padding: 5px; /* Отступы внутри блока */
+ clear: right; /* Отменяем действие float */
+ }
+
+ 
