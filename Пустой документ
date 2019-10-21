@@ -1,0 +1,249 @@
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ git init
+Инициализирован пустой репозиторий Git в /home/user/Рабочий стол/proect html versiya 0/.git/
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ git status
+На ветке master
+
+Еще нет коммитов
+
+Неотслеживаемые файлы:
+  (используйте «git add <файл>…», чтобы добавить в то, что будет включено в коммит)
+
+	images.jpeg
+	index.html
+	oi.jpg
+	re.jpg
+	s.jpg
+	style.css
+	"\320\242\320\265\320\272\321\201\321\202\320\276\320\262\321\213\320\271 \320\264\320\276\320\272\321\203\320\274\320\265\320\275\321\202.txt"
+
+ничего не добавлено в коммит, но есть неотслеживаемые файлы (используйте «git add», чтобы отслеживать их)
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ git add .
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ git status
+На ветке master
+
+Еще нет коммитов
+
+Изменения, которые будут включены в коммит:
+  (используйте «git rm --cached <файл>…», чтобы убрать из индекса)
+
+	новый файл:    images.jpeg
+	новый файл:    index.html
+	новый файл:    oi.jpg
+	новый файл:    re.jpg
+	новый файл:    s.jpg
+	новый файл:    style.css
+	новый файл:    "\320\242\320\265\320\272\321\201\321\202\320\276\320\262\321\213\320\271 \320\264\320\276\320\272\321\203\320\274\320\265\320\275\321\202.txt"
+
+Изменения, которые не в индексе для коммита:
+  (используйте «git add/rm <файл>…», чтобы добавить или удалить файл из индекса)
+  (используйте «git checkout -- <файл>…», чтобы отменить изменения
+   в рабочем каталоге)
+
+	удалено:       "\320\242\320\265\320\272\321\201\321\202\320\276\320\262\321\213\320\271 \320\264\320\276\320\272\321\203\320\274\320\265\320\275\321\202.txt"
+
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ git add .
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ git status
+На ветке master
+
+Еще нет коммитов
+
+Изменения, которые будут включены в коммит:
+  (используйте «git rm --cached <файл>…», чтобы убрать из индекса)
+
+	новый файл:    images.jpeg
+	новый файл:    index.html
+	новый файл:    oi.jpg
+	новый файл:    re.jpg
+	новый файл:    s.jpg
+	новый файл:    style.css
+
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ git commit -m " сайт на html"
+
+*** Пожалуйста, скажите мне кто вы есть.
+
+Запустите
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Ваше Имя"
+
+для указания идентификационных данных аккаунта по умолчанию.
+Пропустите параметр --global для указания данных только для этого репозитория.
+
+fatal: не удалось выполнить автоопределение адреса электронной почты (получено «user@cab4-4.(none)»)
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ git config --global user.email "you@example.com"git config --global user.name "ppk cab4 comp4"
+использование: git config [<опции>]
+
+Размещение файла конфигурации
+    --global              использовать глобальный файл конфигурации
+    --system              использовать системный файл конфигурации
+    --local               использовать файл конфигурации репозитория
+    -f, --file <файл>     использовать указанный файл конфигурации
+    --blob <идент-двоичн-объекта>
+                          прочитать настройки из указанного двоичного объекта
+
+Действие
+    --get                 получить значение: имя [шаблон-значений]
+    --get-all             получить все значения: ключ [шаблон-значений]
+    --get-regexp          получить значения по шаблону: шаблон-имен [шаблон-значений]
+    --get-urlmatch        получить значение, специфичное для URL: раздел[.переменная] URL
+    --replace-all         заменить все соответствующие переменные: имя значение [шаблон-значений]
+    --add                 добавить новую переменную: имя значение
+    --unset               удалить переменную: имя [шаблон-значений]
+    --unset-all           удалить все совпадающие: имя [шаблон-значений]
+    --rename-section      переименовать раздел: старое-имя новое-имя
+    --remove-section      удалить раздел: имя
+    -l, --list            показать весь список
+    -e, --edit            открыть в редакторе
+    --get-color           найти настроенный цвет: раздел [по-умолчанию]
+    --get-colorbool       проверить, существует ли настроенный цвет: раздел [stdout-есть-tty]
+
+Тип
+    --bool                значение — это «true» (правда) или «false» (ложь)
+    --int                 значение — это десятичное число
+    --bool-or-int         значение — это --bool или --int
+    --path                значение — это путь (к файлу или каталогу)
+    --expiry-date         значение - это дата окончания срока действия
+
+Другое
+    -z, --null            завершать значения НУЛЕВЫМ байтом
+    --name-only           показывать только имена переменных
+    --includes            учитывать директивы include (включения файлов) при запросе
+    --show-origin         показать источник настройки (файл, стандартный ввод, двоичный объект, командная строка)
+
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ git config --global user.email "you@example.com"git config --global user.name "ppk-cab4-comp4"
+использование: git config [<опции>]
+
+Размещение файла конфигурации
+    --global              использовать глобальный файл конфигурации
+    --system              использовать системный файл конфигурации
+    --local               использовать файл конфигурации репозитория
+    -f, --file <файл>     использовать указанный файл конфигурации
+    --blob <идент-двоичн-объекта>
+                          прочитать настройки из указанного двоичного объекта
+
+Действие
+    --get                 получить значение: имя [шаблон-значений]
+    --get-all             получить все значения: ключ [шаблон-значений]
+    --get-regexp          получить значения по шаблону: шаблон-имен [шаблон-значений]
+    --get-urlmatch        получить значение, специфичное для URL: раздел[.переменная] URL
+    --replace-all         заменить все соответствующие переменные: имя значение [шаблон-значений]
+    --add                 добавить новую переменную: имя значение
+    --unset               удалить переменную: имя [шаблон-значений]
+    --unset-all           удалить все совпадающие: имя [шаблон-значений]
+    --rename-section      переименовать раздел: старое-имя новое-имя
+    --remove-section      удалить раздел: имя
+    -l, --list            показать весь список
+    -e, --edit            открыть в редакторе
+    --get-color           найти настроенный цвет: раздел [по-умолчанию]
+    --get-colorbool       проверить, существует ли настроенный цвет: раздел [stdout-есть-tty]
+
+Тип
+    --bool                значение — это «true» (правда) или «false» (ложь)
+    --int                 значение — это десятичное число
+    --bool-or-int         значение — это --bool или --int
+    --path                значение — это путь (к файлу или каталогу)
+    --expiry-date         значение - это дата окончания срока действия
+
+Другое
+    -z, --null            завершать значения НУЛЕВЫМ байтом
+    --name-only           показывать только имена переменных
+    --includes            учитывать директивы include (включения файлов) при запросе
+    --show-origin         показать источник настройки (файл, стандартный ввод, двоичный объект, командная строка)
+
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ git config --global user.name "ppk-cab4-comp4"
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ git commit -m " сайт на html"
+
+*** Пожалуйста, скажите мне кто вы есть.
+
+Запустите
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Ваше Имя"
+
+для указания идентификационных данных аккаунта по умолчанию.
+Пропустите параметр --global для указания данных только для этого репозитория.
+
+fatal: не удалось выполнить автоопределение адреса электронной почты (получено «user@cab4-4.(none)»)
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ git config --global user.email "you@example.com"
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ git commit -m " сайт на html"
+[master (корневой коммит) 4863857]  сайт на html
+ 6 files changed, 159 insertions(+)
+ create mode 100755 images.jpeg
+ create mode 100644 index.html
+ create mode 100755 oi.jpg
+ create mode 100755 re.jpg
+ create mode 100755 s.jpg
+ create mode 100755 style.css
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ git remote add origin https://github.com/Kretova23/template-html.git
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ git push -u origin master
+Username for 'https://github.com': Kretova23
+Password for 'https://Kretova23@github.com': 
+Подсчет объектов: 8, готово.
+Delta compression using up to 4 threads.
+Сжатие объектов: 100% (8/8), готово.
+Запись объектов: 100% (8/8), 227.94 KiB | 16.28 MiB/s, готово.
+Total 8 (delta 0), reused 0 (delta 0)
+To https://github.com/Kretova23/template-html.git
+ * [new branch]      master -> master
+Ветка «master» отслеживает внешнюю ветку «master» из «origin».
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ git status
+На ветке master
+Ваша ветка обновлена в соответствии с «origin/master».
+
+Изменения, которые не в индексе для коммита:
+  (используйте «git add <файл>…», чтобы добавить файл в индекс)
+  (используйте «git checkout -- <файл>…», чтобы отменить изменения
+   в рабочем каталоге)
+
+	изменено:      index.html
+
+Неотслеживаемые файлы:
+  (используйте «git add <файл>…», чтобы добавить в то, что будет включено в коммит)
+
+	index2.html
+
+нет изменений добавленных для коммита
+(используйте «git add» и/или «git commit -a»)
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ git add .
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ git commit -m "ура !!!! у нас bootsrap 4"
+git commit -m "ура git add .git add . у нас bootsrap 4"
+[master 4365a45] ура git add .git add . у нас bootsrap 4
+ 2 files changed, 123 insertions(+), 52 deletions(-)
+ create mode 100644 index2.html
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ git push
+Username for 'https://github.com': Kretova23
+Password for 'https://Kretova23@github.com': 
+Подсчет объектов: 3, готово.
+Delta compression using up to 4 threads.
+Сжатие объектов: 100% (3/3), готово.
+Запись объектов: 100% (3/3), 1.28 KiB | 1.28 MiB/s, готово.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Kretova23/template-html.git
+   4863857..4365a45  master -> master
+user@cab4-4:~/Рабочий стол/proect html versiya 0$ cd ~
+user@cab4-4:~$ ls
+ 1121                        'Metod_AAC(1).pdf'       Документы
+'Cisco Packet Tracer 7.2.2'   Metod_AAC.pdf           Изображения
+ code                         pt                      Музыка
+ composer-setup.php           SQLite.Allow.0.90.pdf   Общедоступные
+ git-1.8.4.2.tar.sign        'VirtualBox VMs'        'Рабочий стол'
+ Homestead                    Видео                   Шаблоны
+user@cab4-4:~$ cd ~/'Рабочий стол'
+user@cab4-4:~/Рабочий стол$ git clone https://github.com/Kretova23/template-html.git
+Клонирование в «template-html»…
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 11 (delta 2), reused 11 (delta 2), pack-reused 0
+Распаковка объектов: 100% (11/11), готово.
+user@cab4-4:~/Рабочий стол$ ls
+ Beyli_L_-_Izuchaem_SQL_Bestsellery_O_39_Reilly.pdf
+ logisim-generic-2.7.1.jar
+ Metod_AAC.pdf
+'proect html versiya 0'
+ template-html
+'Бен Форта - SQL за 10 минут, 4-е издание (2014).pdf'
+ Загрузки
+user@cab4-4:~/Рабочий стол$ 
+
