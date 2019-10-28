@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="row mb-3">
+			<div class="col-sm-12 bg-dark text-center text-success py-4"><H1>Сборник форм</H1></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-8">
+					<div class="card my-3 bg-info" >
+
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			        <img src="..." class="d-block w-100" alt="...">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="..." class="d-block w-100" alt="...">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="..." class="d-block w-100" alt="...">
+			    </div>
+			  </div>
+			</div>
